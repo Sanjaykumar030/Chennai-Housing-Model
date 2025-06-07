@@ -108,7 +108,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Feel free to reach out to me:
 
 - Email: [sksanjaykumar010307@gmail.com](mailto:sksanjaykumar010307@gmail)
-- LinkedIn: [Sanjay Kumar Sakamuri Kamalakar](www.linkedin.com/in/sanjay-kumar-sakamuri-kamalakar-a67148214)
+- LinkedIn: [linkedin.com/in/sanjay-kumar-sakamuri-kamalakar-a67148214](https://linkedin.com/in/sanjay-kumar-sakamuri-kamalakar-a67148214)
 - ORCID: [https://orcid.org/0009-0009-1021-2297](https://orcid.org/0009-0009-1021-2297)
 ## ⚠️ Caution 
 - The model is built and trained on a Kaggle dataset last updated in 2022. Therefore, its predictions are based on data available up to that year and may not reflect current market trends.
