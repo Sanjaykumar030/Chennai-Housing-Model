@@ -22,7 +22,9 @@ chennai-housing-xgboost/
 ├── main.ipynb         # Jupyter notebook containing all code (Colab compatible)
 ├── Chennai housing sale.csv  # Dataset used for training
 ├── requirements.txt   # List of required Python packages
-└── README.md          # Project documentation (this file)
+├── README.md          # Project documentation (this file)
+└── feature_graph      # Importance of each feature for the model's prediction
+
 ```
 
 ---
