@@ -1,47 +1,109 @@
 # 🏠 Chennai Housing Price Prediction using XGBoost 🚀
 
-This project predicts housing prices in Chennai using the XGBoost machine learning model. It leverages data-driven techniques to provide accurate price estimations based on features such as location, size, and amenities.
+This project predicts housing prices in Chennai using the XGBoost machine learning algorithm, built entirely in a Jupyter/Google Colab environment. It preprocesses real-world housing data and provides accurate price predictions based on various features such as area, size, amenities, and building quality.
+
+---
 
 ## ✨ Features
 
-- ⚡ Uses XGBoost, a powerful and efficient machine learning algorithm
-- 📊 Predicts housing prices based on various property attributes
-- 🛠️ Data preprocessing and feature engineering
-- 📈 Model evaluation with metrics and visualizations
+- ⚡ Built using [XGBoost](https://xgboost.readthedocs.io/en/stable/), a powerful gradient boosting framework  
+- 📊 Handles missing values, categorical encoding, and feature scaling  
+- 🧠 Predicts housing prices using model trained on Chennai property dataset  
+- 📈 Includes model evaluation (MSE, R²) and feature importance visualization  
+- 🏡 Predicts the price of a *new custom home input*  
 
-## 🛠️ Installation
+---
 
-1. **Clone the repository**
-    ```bash
-    git clone https://github.com/yourusername/chennai-housing-xgboost.git
-    cd chennai-housing-xgboost
-    ```
+## 📁 Project Structure
 
-2. **Install dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
+```
+chennai-housing-xgboost/
+│
+├── main.ipynb         # Jupyter notebook containing all code (Colab compatible)
+├── Chennai housing sale.csv  # Dataset used for training
+├── requirements.txt   # List of required Python packages
+└── README.md          # Project documentation (this file)
+```
+
+---
+
+## 🛠️ Getting Started
+
+> This project is designed to run easily in **Google Colab** or a local Jupyter environment.
+
+### 🔧 Installation (optional if using Colab)
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/chennai-housing-xgboost.git
+cd chennai-housing-xgboost
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+---
 
 ## ▶️ Usage
 
-1. **Prepare your dataset**  
-   Ensure you have the Chennai housing dataset in the correct format (see data/ folder or project documentation).
+### Run in Google Colab:
+1. Open the notebook `main.ipynb` in [Google Colab](https://colab.research.google.com/).
+2. Upload the dataset when prompted (`Chennai housing sale.csv`).
+3. Run all cells.
 
-2. **Run the model**
-    ```bash
-    python main.py
-    ```
+### Local Jupyter Use:
+1. Make sure you have Jupyter installed.
+2. Place `main.ipynb` and the CSV dataset in the same folder.
+3. Launch Jupyter:
+```bash
+jupyter notebook
+```
+4. Open `main.ipynb` and run all cells.
+- 📂 Dataset Source: [Chennai Housing Prices](https://www.kaggle.com/datasets/kunwarakash/chennai-housing-sales-price) by Akash Kunwar on Kaggle
 
-   The script will load the data, preprocess it, train the XGBoost model, and output predictions.
+---
+
+## 📊 Model Workflow
+
+- 📥 Data Loading (`Chennai housing sale.csv`)
+- 🧹 Cleaning (handling dates, nulls, dropping unused columns)
+- 🔄 Encoding (one-hot encoding for categorical features)
+- 📏 Feature Scaling (StandardScaler)
+- 🧠 Model Training (XGBoost Regressor)
+- ✅ Evaluation (MSE & R²)
+- 🔮 Real-world prediction using manually entered property details
+
+---
+
+## 🖼️ Output Example
+
+```
+Mean Squared Error: 48,25,614.23
+R-squared: 0.9512
+
+Predicted House Price: ₹62,15,000.00
+```
+
+---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please open issues or submit pull requests for improvements or bug fixes.
+Feel free to fork this project and submit pull requests. You can improve the dataset, tune the model, or even deploy it as a web app!
+
+---
 
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+---
+
 ## 📬 Contact
 
-For questions or suggestions, please contact [yourname](mailto:youremail@example.com).
+Feel free to reach out to me:
+
+- Email: [sksanjaykumar010307@gmail.com](mailto:sksanjaykumar010307@gmail)
+- LinkedIn: [Sanjay Kumar Sakamuri Kamalakar](www.linkedin.com/in/sanjay-kumar-sakamuri-kamalakar-a67148214)
+- ORCID: [https://orcid.org/0009-0009-1021-2297](https://orcid.org/0009-0009-1021-2297)
