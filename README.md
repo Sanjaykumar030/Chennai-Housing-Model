@@ -90,7 +90,10 @@ Predicted House Price: ₹62,15,000.00
 
 ## 🤝 Contributing
 
-Feel free to fork this project and submit pull requests. You can improve the dataset, tune the model, or even deploy it as a web app!
+Contributions are welcome! Feel free to open issues or submit pull requests for improvements or bug fixes.
+
+🔔 **Note:** Before contributing, please read the Caution section regarding dataset limitations and prediction accuracy.
+
 
 ---
 
@@ -107,3 +110,5 @@ Feel free to reach out to me:
 - Email: [sksanjaykumar010307@gmail.com](mailto:sksanjaykumar010307@gmail)
 - LinkedIn: [Sanjay Kumar Sakamuri Kamalakar](www.linkedin.com/in/sanjay-kumar-sakamuri-kamalakar-a67148214)
 - ORCID: [https://orcid.org/0009-0009-1021-2297](https://orcid.org/0009-0009-1021-2297)
+## ⚠️ Caution 
+- The model is built and trained on a Kaggle dataset last updated in 2022. Therefore, its predictions are based on data available up to that year and may not reflect current market trends.
