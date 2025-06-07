@@ -23,7 +23,7 @@ chennai-housing-xgboost/
 ├── Chennai housing sale.csv  # Dataset used for training
 ├── requirements.txt   # List of required Python packages
 ├── README.md          # Project documentation (this file)
-└── feature_graph      # Importance of each feature for the model's prediction
+└── feature_graph.png      # Importance of each feature for the model's prediction
 
 ```
 
