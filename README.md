@@ -83,7 +83,7 @@ jupyter notebook
 
 ```
 Mean Squared Error: 48,25,614.23
-R-squared: 0.9512
+R-squared: 0.9945
 
 Predicted House Price: ₹62,15,000.00
 ```
